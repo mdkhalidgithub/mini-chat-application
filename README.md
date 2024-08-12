@@ -25,4 +25,4 @@ This is a simple chat application built with Express.js and MongoDB. The applica
  **Clone the Repository**
 
    ```bash
-   git clone https://github.com/mdkhalidgithub/simple-chat-application.git
+   git clone [https://github.com/mdkhalidgithub/simple-chat-application.git](https://github.com/mdkhalidgithub/mini-chat-application)
