@@ -30,7 +30,7 @@ app.get("/chats",async(req,res)=>{
 app.get("/chats/new",(req,res)=>{
     res.render("new.ejs");
 
-})
+});
 //create route
 app.post("/chats", (req,res)=>{
     let {from,to,msg}=req.body;
@@ -72,7 +72,7 @@ app.delete("/chats/:id",async (req,res)=>{
     let deletedChat=await Chat.findByIdAndDelete(id);
     console.log(deletedChat);
     res.redirect("/chats");
-})
+});
 
 let chat1=new Chat({
     from:"neha",
@@ -90,4 +90,4 @@ app.get("/",(req,res)=>{
 
 app.listen(8080, ()=>{
     console.log("server is listening on port 8080:")
-})
+});
