@@ -8,7 +8,7 @@ main()
 
 async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/whatsapp');
-  }
+  };
 
   let allChats=[
     {
@@ -53,7 +53,7 @@ async function main() {
     to:"danish",
     msg:"hello bro!",
     created_at: new Date()
-},
+}
 
 
 ];
